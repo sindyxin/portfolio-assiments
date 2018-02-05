@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Sorting Ninja</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="portfolio.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 id="name">Jayne Doe</h1>
+			<p id="title">Master of shadows and the Internet!</p>
+		</header>
+		<div id="accordion">
+			<h1 class="ui-accordion-header">PS information</h1>
+			<div id="ps-content" class="ui-accordion-content">
+				<img id="ps-photo"  src="portfolio_images/photo_of_me.jpg" alt="person image">
+				<div id="ps-text" >				
+					<p id="text-p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, nulla aliquid aut optio odio distinctio veniam nisi quasi commodi tempora dolorum atque, enim fugit dolore eos placeat sint at incidunt!</p>
+					<p id="text-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni labore temporibus alias consequatur quaerat ratione beatae nam voluptate molestiae voluptatibus aspernatur, veniam aperiam hic rerum accusantium iure harum sapiente tenetur.</p>
+					<a href="" rel="Countinue Reading" target="self">Countinue reading...</a>
+			    </div>
+			</div>
+			<h1 class="ui-accordion-header">Projects with Technical list</h1>
+			<div id="projects-content" class="ui-accordion-content">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">La Mode</a></li>
+						<li><a href="#tabs-2">Family Contacts</a></li>
+						<li><a href="#tabs-3">fiveEleven</a></li>
+					</ul>
+					<div id="tabs-1">
+						<h2>La Mode</h2>
+						<img class="project-img" src="portfolio_images/lamode.png" alt="lamode">						
+						<p class="project-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur numquam soluta nobis rem maiores culpa modi vel error expedita?
+						</p>
+						<h4>Technologies:</h4>
+						<img class="tech-icon" src="portfolio_images/php.png" alt="php.png">
+						<img class="tech-icon" src="portfolio_images/codeigniter.png" alt="codeigniter.png">
+						<img class="tech-icon" src="portfolio_images/jQuery.png" alt="jQuery.png">
+						<img class="tech-icon" src="portfolio_images/ajax.png" alt="ajax.png">
+						<img class="tech-icon" src="portfolio_images/mysql.png" alt="mysql.png">
+						<img class="tech-icon" src="portfolio_images/HTML.png" alt="HTML.png">
+						<img class="tech-icon" src="portfolio_images/CSS.png" alt="CSS.png">
+						<img class="tech-icon" src="portfolio_images/bootstrap.png" alt="bootstrap.png">
+						<button id="project-button1">La Mode</button>
+						
+					</div>
+					<div id="tabs-2">
+						<h2>Family Contacts</h2>
+						<img class="project-img" src="portfolio_images/familycontacts.png" alt="familycontacts">
+						<p class="project-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur numquam soluta nobis rem maiores culpa modi vel error expedita?
+						</p>
+						<h4>Technologies:</h4>
+						<img class="tech-icon" src="portfolio_images/python.png" alt="python.png">
+						<img class="tech-icon" src="portfolio_images/expressjs.png" alt="expressjs.png">
+						<img class="tech-icon" src="portfolio_images/angular.png" alt="angular.png">
+						<img class="tech-icon" src="portfolio_images/nodejs.png" alt="nodejs.png">
+						<img class="tech-icon" src="portfolio_images/HTML.png" alt="HTML.png">
+						<img class="tech-icon" src="portfolio_images/CSS.png" alt="CSS.png">
+						<img class="tech-icon" src="portfolio_images/socket.png" alt="socket.png">
+						<button id="project-button2">Family Contacts</button>
+					</div>
+					<div id="tabs-3">
+						<h2>fiveEleven</h2>
+						<img class="project-img" src="portfolio_images/fiveEleven.png" alt="person image">
+						<p class="project-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur numquam soluta nobis rem maiores culpa modi vel error expedita?
+						</p>
+						<h4>Technologies:</h4>
+						<img class="tech-icon" src="portfolio_images/php.png" alt="php.png">
+						<img class="tech-icon" src="portfolio_images/codeigniter.png" alt="codeigniter.png">
+						<img class="tech-icon" src="portfolio_images/jQuery.png" alt="jQuery.png">
+						<img class="tech-icon" src="portfolio_images/ajax.png" alt="ajax.png">
+						<img class="tech-icon" src="portfolio_images/mysql.png" alt="mysql.png">
+						<img class="tech-icon" src="portfolio_images/HTML.png" alt="HTML.png">
+						<img class="tech-icon" src="portfolio_images/CSS.png" alt="CSS.png">
+						<img class="tech-icon" src="portfolio_images/bootstrap.png" alt="bootstrap.png">					
+						<button id="project-button3">fiveEleven</button>					
+					</div>
+				</div>
+			</div>
+			<h1 class="ui-accordion-header">Contact information</h1>
+			<div id="contact-info" class="ui-accordion-content">
+				<p id="contact-text">Jdoe@gmail.com | 206-555-1212</p>
+				<img class="contact-icon" src="portfolio_images/github.png" alt="github.png"><span>Sindyxin</span>
+				<img class="contact-icon" src="portfolio_images/linkedin.png" alt="linkedin.png"><span>Sindyxin</span>
+				<img class="contact-icon" src="portfolio_images/twitter.png" alt="twitter.png"><span>Sindyxin</span>
+				<img class="contact-icon" src="portfolio_images/codepen.png" alt="codepen.png"><span>Sindyxin</span>
+			</div>
+		</div>	
+    </div>
+</body>
+
+</html>
